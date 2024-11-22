@@ -1,6 +1,6 @@
 <?php
 
-function rotone($str)
+function rotone(string $str)
 {
     $lowstr = strtolower($str);
     $newstr = "";

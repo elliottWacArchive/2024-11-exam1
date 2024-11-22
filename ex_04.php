@@ -1,6 +1,6 @@
 <?php
 
-function print_array($arr)
+function print_array(array $arr)
 {
     foreach ($arr as $key => $val) {
         echo "[$key] => [$val]\n";
