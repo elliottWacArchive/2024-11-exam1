@@ -12,7 +12,7 @@ function rotone($str)
             $newchar = chr($asciival + 1);
             $newstr = $newstr . $newchar;
         } else {
-            $newstr = $newstr . $str[$i];
+            $newstr = $newstr . $lowstr[$i];
         }
     }
     echo "$newstr\n";
